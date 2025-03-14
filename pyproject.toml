@@ -9,3 +9,8 @@ dependencies = [
     "requests",
     "rich",
 ]
+authors = [{name = "Jacob Weiss", email = "jaweiss2305@gmail.com"}]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
