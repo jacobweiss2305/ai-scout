@@ -1,0 +1,11 @@
+[project]
+name = "aiscout"
+version = "0.1.0"
+description = "A lightning fast and insanely accurate agentic object detection system"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "ultralytics",
+    "requests",
+    "rich",
+]
